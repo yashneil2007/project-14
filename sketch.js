@@ -61,15 +61,15 @@ if (World.frameCount % 100 == 0)
 {
     if (select_balloon == 1) 
   {
-    case 1: redBalloon();
-    break;
-    case 2: blueBalloon();
-    break;
-    case 3: pinkBalloon();
-    break;
-    case 4: greenBalloon();
-    break;
-    defaltbreak;
+    case 1: obstacle.addImage(redBalloon);
+                  break;
+    case 2: obstacle.addImage(blueBalloon);
+                  break;
+    case 3: obstacle.addImage(pinkBalloon);
+                  break;
+    case 4: obstacle.addImage(greenBalloon);
+                  break;
+    default: break;
     
   }
 }
