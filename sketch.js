@@ -59,7 +59,7 @@ function draw()
   
 if (World.frameCount % 100 == 0) 
 {
-    if (select_balloon == 1) 
+    switch (select_balloon == 1) 
   {
     case 1: obstacle.addImage(redBalloon);
                   break;
