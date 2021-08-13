@@ -53,7 +53,7 @@ function draw()
     createArrow();
     
   }
-} 
+
   //creating continous balloons
   var select_balloon = Math.round(random(1,4));
   
@@ -132,4 +132,5 @@ function pinkBalloon()
   pink.lifetime = 150;
   pink.scale = 0.1;
 
+}
 }
